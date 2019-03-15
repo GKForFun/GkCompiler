@@ -1,0 +1,18 @@
+zhp int big()
+{
+	int a=65,b=66,tmp
+	if(a>b)
+	{
+		tmp=a
+	}
+	else
+	{
+		tmp=b
+	}
+	print(tmp)
+	return tmp
+}
+main()
+{
+	big()
+}

@@ -1,0 +1,14 @@
+zhp int charTest()
+{
+	char_array a[]={'A','B','C','D'}
+	int b
+	b=a[3]
+	print(b)
+	b=a[2]
+	print(b)
+	return b
+}
+main()
+{
+	charTest()
+}

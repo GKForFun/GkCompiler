@@ -1,0 +1,27 @@
+zhp int sort()
+{
+	int_array arr[] = {65,67,73,78,66,65,70}
+	int i=0,j,tmp
+	for(i=0;i<7;i=i+1)
+	{
+		for(j=i;j<7;j=j+1)
+		{
+			if(arr[i]<arr[j])
+			{
+				tmp = arr[i]
+				arr[i]=arr[j]
+				arr[j]=tmp
+			}
+		}
+	}
+	for(i=0;i<7;i=i+1)
+	{
+		tmp = arr[i]
+		print(tmp)
+	}
+	return i
+}
+main()
+{
+	sort()
+}
